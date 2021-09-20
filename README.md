@@ -1,7 +1,9 @@
 # vlookup-custom-formula-for-web-API-JSON
 Along the way of our commercial B2B SaaS product development, that empowers frontline employees with intuitive text interface to poorly-accessible corporate date to inform and speed business decisions with significant benefits for enterprises, 
 
-WE created a lot of useful and powerful software tools for testing apart of our main product. For example we've created VBA Excel function VLOOKUPWEB, that works same as VLOOKUP but for API JSON format responses. 
+WE created a lot of useful and powerful software tools for testing apart of our main product. For example we've created VBA Excel function VLOOKUPWEB, that works same as VLOOKUP but for API JSON format responses.
+
+https://user-images.githubusercontent.com/31845900/133978214-5707fc84-2b0a-4d94-8063-0f8280689f6e.mp4
 
 VLOOKUPWEB requires the following inputs: 
 1. API link, 
