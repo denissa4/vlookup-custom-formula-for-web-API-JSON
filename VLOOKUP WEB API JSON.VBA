@@ -35,7 +35,7 @@ Function VLOOKUPWEB(ByVal cell As Range, ByVal txt As String, Optional ByVal pau
                 zapr = "GET"   'support of GET request. All parameters expected to be in (1st) Cell argument
             End If
             
-            Set xmlhttp = CreateObject("WinHttp.WinHttpRequest.5.1") 'MSXML2.XMLHTTP
+            Set xmlhttp = CreateObject("MSXML2.XMLHTTP") 'MSXML2.XMLHTTP
              xmlhttp.Open zapr, URL, False: DoEvents
              xmlhttp.setRequestHeader "Authorization", header   'you can change Authorization to api-key, etc. as required by API provider
              xmlhttp.setRequestHeader "Content-Type", "application/json"   'you can add as much headers as needed
